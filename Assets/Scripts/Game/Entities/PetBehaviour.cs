@@ -45,7 +45,7 @@ namespace DaggerfallWorkshop.Game.Entity
 
         private void CheckPlayerHealth(int health, int maxHealth)
         {
-            int healthPercent = (health / maxHealth) * 100;
+            int healthPercent = (int)((double)health / maxHealth * 100) ;
             if (healthPercent <= 25)
             {
                 // cast heal

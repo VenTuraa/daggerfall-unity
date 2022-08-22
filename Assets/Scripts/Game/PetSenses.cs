@@ -211,7 +211,7 @@ namespace DaggerfallWorkshop.Game
                 float distance = Vector3.Distance(transform.position, player.transform.position);
                 if (distance > 10)
                 {
-                    transform.position = player.transform.position;
+                    transform.position = player.transform.position ;
                 }
                 else if (distance >= maxdDistanceToPlayer)
                 {
